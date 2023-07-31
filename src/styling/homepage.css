@@ -1,5 +1,5 @@
 .homepage {
-    color: #EED3D7;
+    color: #DCA7B2;
     width: 100%;
     align-items: center;
     font-family: Helvetica, sans-serif;
@@ -41,6 +41,24 @@
     color: #3e497a;
   }
   
+  .skillList {
+    display: flex; 
+    justify-content: center; 
+  }
+
+
+  .skill {
+    display: inline-block; 
+    background-color: #F5E6E8; 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 10px;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+  }
+
   .skill .skillList {
     font-size: 20px;
     width: 60%;
