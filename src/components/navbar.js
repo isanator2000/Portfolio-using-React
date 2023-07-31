@@ -16,6 +16,8 @@ const [openNavbar, setOpenNavbar]= useState(false);
             <Link to ='/'>Home</Link>
             <Link to ='/works'>Works</Link>
             <Link to ='/about'>About</Link>
+            <Link to ='/contact'>Contact</Link>
+            <Link to ='/resume'>Resume</Link>
         </div>
 
     </div>
