@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styling/homepage.css'
 
 function Home () {
     return ( 
