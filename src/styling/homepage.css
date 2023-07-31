@@ -51,9 +51,9 @@
 .skillList {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* Added to wrap the boxes */
-  max-width: 800px; /* Adjusted maximum width for the boxes */
-  margin: 0 auto; /* Center the boxes horizontally */
+  flex-wrap: wrap; 
+  max-width: 800px; 
+  margin: 0 auto; 
 }
 
 .skill {
@@ -64,7 +64,6 @@
   padding: 20px;
   margin: 10px;
   width: 300px;
-  /* Removed height to allow the box to adjust based on content */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,7 +73,7 @@
 
 .skill .skillList {
   font-size: 20px;
-  width: 100%; /* Changed to 100% to make the text centered */
+  width: 100%; 
   list-style: none;
 }
 
@@ -104,8 +103,8 @@
 
   .skillList {
     padding: 0;
-    flex-direction: column; /* Stack the boxes vertically on mobile */
-    align-items: center; /* Center the boxes horizontally on mobile */
+    flex-direction: column; 
+    align-items: center; 
   }
 }
 
