@@ -1,94 +1,99 @@
 .homepage {
-    color: #DCA7B2;
-    width: 100%;
-    align-items: center;
-    font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.homepage h1 {
+  color: #3e497a;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  background-color: white;
+  color: #2B488C;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.intro .phrase {
+  width: 40%;
+  font-size: 25px;
+}
+
+.skills {
+  font-size: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills h1 {
+  color: #3e497a;
+}
+
+.skillList {
+  display: flex;
+  justify-content: center;
+}
+
+.skill {
+  color:#2B488C;
+  display: inline-block;
+  background-color: #F5E6E8;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.skill .skillList {
+  font-size: 20px;
+  width: 60%;
+  list-style: none;
+}
+
+.skillList span {
+  color: #E788AC;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .homepage h1 {
+    font-size: 30px;
   }
-  
-  .intro {
-    background-color: white;
-    color: #2B488C;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
-  
-  .intro h1 {
-    color: #E788AC;
-    font-family: Helvetica, sans-serif;
-    font-size: 45px;
-    height: 50px;
-  }
-  
+
   .intro .phrase {
-    width: 40%;
-    font-size: 25px;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
   }
 
   .skills {
-    font-size: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .skills h1 {
-    color: #3e497a;
-  }
-  
-  .skillList {
-    display: flex; 
-    justify-content: center; 
+    text-align: center;
   }
 
-
-  .skill {
-    display: inline-block; 
-    background-color: #F5E6E8; 
-    border-radius: 10px; 
-    padding: 20px; 
-    margin: 10px;
-    width: 300px;
-    height: 150px;
-    display: flex;
-    align-items: center;
-  }
-
-  .skill .skillList {
+  .skill h3 {
     font-size: 20px;
-    width: 60%;
-    list-style: none;
   }
-  
-  .skillList span {
-    color: #E788AC;
-    font-size: 15px;
+
+  .skillList {
+    padding: 0;
   }
-  
-  @media only screen and (max-width: 600px) {
-    .intro h1 {
-      font-size: 30px;
-    }
-  
-    .intro .phrase {
-      margin-top: 10px;
-      font-size: 20px;
-      width: 80%;
-    }
-  
-    .skills {
-      text-align: center;
-    }
-    .skill h3 {
-        font-size: 20px;
-      }
-    .skillList {
-      padding: 0;
-    }
-  
-  }
+}
