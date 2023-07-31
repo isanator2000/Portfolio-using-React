@@ -86,7 +86,7 @@
     .toggleBtn {
       display: flex;
     }
-    #close a {
+    #closed a {
       display: none;
     }
   }
