@@ -1,0 +1,51 @@
+.aboutMe {
+    font-size: 25px;
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .aboutIntro {
+    background-color: #F5E6E8;
+    border-radius: 10px;
+    max-width: 800px;
+    min-height: calc(70vh - 100px);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .aboutIntro h3 {
+    color: #3e497a;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .aboutIntro p {
+    color: #E788AC;
+    font-size: 15px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .aboutMe {
+      padding: 10px;
+      min-height: auto;
+    }
+  
+    .aboutIntro h3 {
+      font-size: 24px;
+    }
+  
+    .aboutIntro p {
+      font-size: 14px;
+    }
+  }
+  
