@@ -1,0 +1,28 @@
+.contact {
+    font-size: 25px;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    flex-grow: 1;
+    min-height: calc(40vh - 50px); 
+  }
+  
+  .contact h1 {
+    color: #3e497a;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+    .contact h1 {
+      font-size: 30px;
+    }
+  
+  }
+  
