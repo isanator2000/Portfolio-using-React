@@ -2,7 +2,6 @@ import React from 'react'
 import '../styling/resume.css'
 
 
-
 function Resume() {
   return (
     <div className='resume-container'>

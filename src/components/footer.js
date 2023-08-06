@@ -6,7 +6,11 @@ function Footer() {
   return (
     <div className='footer'>
         <p>Thank you for visiting my portfolio page! It's still a WIP so come visit again later!</p>
-        <div className='githubIcon'> <GithubIcon /></div>
+        <div className='githubIcon'> 
+        <a href='https://github.com/isanator2000?tab=repositories' target='_blank' rel='noopener noreferrer'>
+          <GithubIcon />
+          </a>
+          </div>
     </div>
   )
 }
