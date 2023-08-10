@@ -7,4 +7,4 @@ This is my portfolio created with React.js. It contains an About page, Works pag
 To be added (difficulties deploying the page). 
 
 ## Credits
-
+I used a snippet of code for the contact form inside the components folder. 
